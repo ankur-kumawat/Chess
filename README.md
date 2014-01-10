@@ -24,20 +24,16 @@ List of java packages used-->
 
 Class Hierarchy:-
 -----------------
-								     std.ankur.game(package)
-								    /          |  	    \
-								   /	       |	     \
-								  /	       |	      \	
-								 /	       |	       \
-	  				----std.ankur.game.gui(package)	   Chess(Class)	       std.ankur.game.movements(package)
-	  				|							| 													
-			       	        |--> ChessGUI_Main					|--> MovementListener
-					|		
-					|--> StartGame
-					|		
-					|--> VarientLabel
-					|		
-					|--> BoxPanels
+	*std.ankur.game(package)
+		- Chess(class)
+		- std.ankur.game.gui(package)
+			- ChessGUI_Main(class)
+			- BoxPanel(class)
+			- VarientLabel(class)
+			- StartGame(class)
+		- std.ankur.game.movements(package)
+			- MovementListener(class)
+
 
 Screenshots
 -----------
